@@ -1,7 +1,9 @@
 {
     "name": "tibaredha/tibamvc",
     "description": "mvc for php",
-    "require": {
+    "license": "MIT",
+	"minimum-stability": "dev",
+	"require": {
         "php": ">=7.4"   
     }
 }
