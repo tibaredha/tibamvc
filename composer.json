@@ -1,8 +1,8 @@
 {
-    "name": "cw/tibaredha",
+    "name": "tibaredha/tibamvc",
     "description": "mvc for php",
     "type": "project",
-    "license": "mat",
+    "license": "MAT",
     "authors": [
         {
             "name": "tibaredha",

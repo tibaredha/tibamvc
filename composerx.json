@@ -1,7 +1,0 @@
-{
-    "name": "tibaredha/tibamvc",
-    "description": "tibamvc for php",
-    "require": {
-        "php": ">=7.4"    
-    }
-}
