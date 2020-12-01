@@ -2,9 +2,8 @@
     "name": "tibaredha/tibamvc",
     "description": "mvc for php",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.4",
-        "setasign/fpdf": "9999999-dev"
+    "minimum-stability": "stable",
+	"require": {
+        "php": ">=7.4"
     }
 }
