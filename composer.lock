@@ -4,87 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d061c53b61a9d2026e694ecce2252aa9",
+    "content-hash": "3226d45ffe86e03a12a5c303d9d76283",
     "packages": [
         {
-            "name": "tecnickcom/tcpdf",
-            "version": "dev-main",
+            "name": "setasign/fpdf",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "485956db63b5a225760e80fa2278bdb22eca4650"
+                "url": "https://github.com/Setasign/FPDF.git",
+                "reference": "b1ce6923091443d497ad67d11f562a86f876e6f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/485956db63b5a225760e80fa2278bdb22eca4650",
-                "reference": "485956db63b5a225760e80fa2278bdb22eca4650",
+                "url": "https://api.github.com/repos/Setasign/FPDF/zipball/b1ce6923091443d497ad67d11f562a86f876e6f1",
+                "reference": "b1ce6923091443d497ad67d11f562a86f876e6f1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "ext-gd": "*",
+                "ext-zlib": "*"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "config",
-                    "include",
-                    "tcpdf.php",
-                    "tcpdf_parser.php",
-                    "tcpdf_import.php",
-                    "tcpdf_barcodes_1d.php",
-                    "tcpdf_barcodes_2d.php",
-                    "include/tcpdf_colors.php",
-                    "include/tcpdf_filters.php",
-                    "include/tcpdf_font_data.php",
-                    "include/tcpdf_fonts.php",
-                    "include/tcpdf_images.php",
-                    "include/tcpdf_static.php",
-                    "include/barcodes/datamatrix.php",
-                    "include/barcodes/pdf417.php",
-                    "include/barcodes/qrcode.php"
+                    "fpdf.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0-only"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Nicola Asuni",
-                    "email": "info@tecnick.com",
-                    "role": "lead"
+                    "name": "Olivier Plathey",
+                    "email": "oliver@fpdf.org",
+                    "homepage": "http://fpdf.org/"
                 }
             ],
-            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
-            "homepage": "http://www.tcpdf.org/",
+            "description": "FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.",
+            "homepage": "http://www.fpdf.org",
             "keywords": [
-                "PDFD32000-2008",
-                "TCPDF",
-                "barcodes",
-                "datamatrix",
-                "pdf",
-                "pdf417",
-                "qrcode"
+                "fpdf",
+                "pdf"
             ],
             "support": {
-                "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/main"
+                "source": "https://github.com/Setasign/FPDF/tree/master"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&currency_code=GBP&business=paypal@tecnick.com&item_name=donation%20for%20tcpdf%20project",
-                    "type": "custom"
-                }
-            ],
-            "time": "2020-04-01T13:36:47+00:00"
+            "time": "2020-01-02T10:16:06+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "tecnickcom/tcpdf": 20
+        "setasign/fpdf": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
