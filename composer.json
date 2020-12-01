@@ -1,14 +1,7 @@
 {
     "name": "tibaredha/tibamvc",
     "description": "mvc for php",
-    "type": "project",
-    "license": "",
-    "authors": [
-        {
-            "name": "tibaredha",
-            "email": "tibaredha@yahoo.fr"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": ">=7.4"   
+    }
 }
